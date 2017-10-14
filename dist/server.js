@@ -9,7 +9,7 @@ appd.profile({
     accountAccessKey: 'f09e76b9-576d-4f2d-8b00-820d177a5e17',
     applicationName: 'NodeCassandra',
     tierName: 'Backend',
-    nodeName: 'node1'
+    nodeName: 'mac1'
 });
 var express = require("express");
 var bodyParser = require("body-parser");

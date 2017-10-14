@@ -40,7 +40,7 @@ var ProductController = /** @class */ (function () {
     function ProductController() {
         var models = expressCassandra.createClient({
             clientOptions: {
-                contactPoints: ['192.168.99.100'],
+                contactPoints: ['localhost'],
                 protocolOptions: { port: 9042 },
                 keyspace: 'david',
                 queryOptions: { consistency: expressCassandra.consistencies.one }
